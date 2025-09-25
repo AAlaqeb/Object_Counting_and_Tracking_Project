@@ -12,7 +12,7 @@ It includes two main applications:
 ---
 
 ## 📂 Project Structure
-'''
+
 
 ├── Pedestrian Counting.ipynb # pedestrian detection, tracking, scene counting
 
@@ -24,7 +24,6 @@ It includes two main applications:
 
 └── resources.zip # contains YOLO weights + sample videos
 
-'''
 
 ---
 

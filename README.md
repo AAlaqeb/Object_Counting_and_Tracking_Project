@@ -27,11 +27,10 @@ It includes two main applications:
 ## ⚙️ Installation
 
 ### 1. Create a conda environment (recommended)
-```bash
+```
 conda create -n yolov11count python=3.9 -y
 conda activate yolov11count
 ```
--
 ### 2. Install dependencies
 ```
 pip install -r requirements.txt

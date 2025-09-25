@@ -37,6 +37,16 @@ git clone https://github.com/AAlaqeb/Object_Counting_and_Tracking_Project.git
 cd Object_Counting_and_Tracking_Project
 ```
 ### 3. Install dependencies
+
+# Install PyTorch separately 
+# For GPU (CUDA 12.1, recommended)
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia -y
+```
+# For CPU only:
+```
+pip install torch torchvision torchaudio
+```
 ```
 pip install -r requirements.txt
 ```

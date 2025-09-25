@@ -31,14 +31,14 @@ It includes two main applications:
 conda create -n yolov11count python=3.9 -y
 conda activate yolov11count
 ```
-### 2. Install dependencies
-```
-pip install -r requirements.txt
-```
-### 3. Clone the repo
+### 2. Clone the repo
 ```
 git clone https://github.com/AAlaqeb/Object_Counting_and_Tracking_Project.git
 cd Object_Counting_and_Tracking_Project
+```
+### 3. Install dependencies
+```
+pip install -r requirements.txt
 ```
 ### 4. Download resources (YOLO weights + sample videos)
 

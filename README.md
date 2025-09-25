@@ -35,7 +35,7 @@ Download it here:
 👉 [Google Drive – resources.zip](https://drive.google.com/drive/folders/1E6hmhKR9nbLMrpmqx9NM4lJca9bms_O6?usp=sharing)
 
 After downloading, extract it into the repo root:
-'''
+
 Object_Counting_and_Tracking_Project/
 
 │── yolo11m.pt
@@ -44,6 +44,14 @@ Object_Counting_and_Tracking_Project/
 
 ├── indoor.mp4
 
-│── vehicles.mp4
+└── vehicles.mp4
 
-'''
+
+## ⚙️ Installation
+
+### 1. Create a conda environment (recommended)
+```bash
+conda create -n yolov11count python=3.9 -y
+conda activate yolov11count
+
+

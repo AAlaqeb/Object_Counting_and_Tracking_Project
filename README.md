@@ -14,10 +14,15 @@ It includes two main applications:
 ## 📂 Project Structure
 '''
 ├── Pedestrian Counting.ipynb # pedestrian detection, tracking, scene counting
+
 ├── Vehicle Lines Counting.ipynb # vehicle tracking + line-based counting
+
 ├── requirements.txt # install dependencies
+
 ├── README.md # this file
+
 └── resources.zip # contains YOLO weights + sample videos
+
 '''
 
 ---

@@ -37,15 +37,12 @@ Download it here:
 After downloading, extract it into the repo root:
 
 Object_Counting_and_Tracking_Project/
-
+```
 │── yolo11m.pt
-
 │── Pedestrians.mp4
-
 ├── indoor.mp4
-
 └── vehicles.mp4
-
+```
 
 ## ⚙️ Installation
 
@@ -53,5 +50,27 @@ Object_Counting_and_Tracking_Project/
 ```bash
 conda create -n yolov11count python=3.9 -y
 conda activate yolov11count
+```
+-
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Clone the repo
+git clone https://github.com/AAlaqeb/Object_Counting_and_Tracking_Project.git
+cd Object_Counting_and_Tracking_Project
+
+4. Download resources (YOLO weights + sample videos)
+
+Download the zip file from Google Drive:
+👉 resources.zip
+
+Extract it into the repo root so the structure looks like:
+
+Object_Counting_and_Tracking_Project/
+│── yolo11m.pt
+│── sample_videos/
+│    ├── people2.mp4
+│    └── traffic.mp4
 
 
+---

@@ -23,22 +23,6 @@ It includes two main applications:
 
 ---
 
-## 📥 Resources (YOLO Weights + Videos)
-
-All required files (YOLOv11 weights and sample videos) are packed into a single zip.  
-Download it here:  
-
-👉 [Google Drive – resources.zip](https://drive.google.com/drive/folders/1E6hmhKR9nbLMrpmqx9NM4lJca9bms_O6?usp=sharing)
-
-After downloading, extract it into the repo root:
-
-Object_Counting_and_Tracking_Project/
-```
-│── yolo11m.pt
-│── Pedestrians.mp4
-├── indoor.mp4
-└── vehicles.mp4
-```
 
 ## ⚙️ Installation
 
@@ -66,9 +50,9 @@ Extract it into the repo root so the structure looks like:
 ```
 Object_Counting_and_Tracking_Project/
 │── yolo11m.pt
-│── sample_videos/
-│    ├── people2.mp4
-│    └── traffic.mp4
+│── Pedestrians.mp4
+├── indoor.mp4
+└── vehicles.mp4
 ```
 
 ---

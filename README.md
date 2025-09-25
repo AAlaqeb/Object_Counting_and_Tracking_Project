@@ -13,6 +13,7 @@ It includes two main applications:
 
 ## 📂 Project Structure
 '''
+
 ├── Pedestrian Counting.ipynb # pedestrian detection, tracking, scene counting
 
 ├── Vehicle Lines Counting.ipynb # vehicle tracking + line-based counting
@@ -37,8 +38,13 @@ Download it here:
 After downloading, extract it into the repo root:
 '''
 Object_Counting_and_Tracking_Project/
+
 │── yolo11m.pt
+
 │── Pedestrians.mp4
+
 ├── indoor.mp4
+
 │── vehicles.mp4
+
 '''
